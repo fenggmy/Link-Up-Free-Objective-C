@@ -19,7 +19,7 @@ NSArray* imageValues(){
     NSMutableArray* resourceValues = [[NSMutableArray alloc] init];
     //NSBundle* bundle = [NSBundle mainBundle];
     NSArray* paths = [[NSBundle mainBundle] pathsForResourcesOfType:@"png" inDirectory:@"images"];
-    NSLog(@"paths = %@",paths);
+    //NSLog(@"paths = %@",paths);
     for (NSString* path in paths){
         NSString* imageName = [path lastPathComponent];
         // 只添加以p_开头的图片

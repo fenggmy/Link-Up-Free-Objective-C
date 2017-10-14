@@ -200,7 +200,7 @@
         // 向下遍历,不超过Board(有方块的地方)的边框
         // 以p1中心点向下遍历获取点集合
         p1DownChanel = [self getDownChanelFromPoint:point1 max:maxHeight height:pieceHeight];
-        p2DownChanel = [self getDownChanelFromPoint:point1 max:maxHeight height:pieceHeight];
+        p2DownChanel = [self getDownChanelFromPoint:point2 max:maxHeight height:pieceHeight];
         NSDictionary *downLinkPoints = [self getLinkXPointsFromP1chanel:p1DownChanel p2Chanel:p2DownChanel pieceWidth:pieceWidth];
         [result addEntriesFromDictionary:upLinkPoints];
         [result addEntriesFromDictionary:downLinkPoints];
@@ -217,8 +217,8 @@
         p1RightChanel = [self getRightChanelFromPoint:point1 max:maxWidth width:pieceWidth];
         NSArray * p2RightChanel = [self getRightChanelFromPoint:point2 max:maxWidth width:pieceWidth];
         NSDictionary *rightLinkPoints = [self getLinkYPointsFromP1chanel:p1RightChanel p2Chanel:p2RightChanel pieceHeight:pieceHeight];
-        [result addEntriesFromDictionary:rightLinkPoints];
         [result addEntriesFromDictionary:leftLinkPoints];
+        [result addEntriesFromDictionary:rightLinkPoints];
     }
     // point2位于point1的右上角
     if ([self isRightUpToP1:point1 P2:point2]) {
@@ -480,7 +480,7 @@
 -(NSArray*) getRightChanelFromPoint:(FKPoint*)point max:(NSInteger)max width:(NSInteger)pieceWidth{
     NSMutableArray * result = [[NSMutableArray alloc]init];
     // 获取向右通道, 由一个点向右遍历, 步长为Piece图片的宽
-    for (NSInteger i = point.x - pieceWidth; i <= max; i += pieceWidth) {
+    for (NSInteger i = point.x + pieceWidth; i <= max; i += pieceWidth) {
         // 遇到障碍, 表示通道已经到尽头, 直接返回
         if ([self hasPieceAtX:i Y:point.y]) {
             return result;

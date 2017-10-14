@@ -24,9 +24,9 @@
     if (self = [super initWithFrame:frame]) {
         self.isPlaying = NO;
         // 初始化选中框的图片
-        _selectedImage = [UIImage imageNamed:@"images/selected"];
+        _selectedImage = [UIImage imageNamed:@"images/selected.png"];
         // 使用图片平铺作为定义连接线的颜色
-        _bubbleColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"images/bubble"]];
+        _bubbleColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"images/bubble.jpg"]];
         // 获取两个音效文件的的URL
         NSURL *disUrl = [[NSBundle mainBundle] URLForResource:@"dis" withExtension:@"wav" subdirectory:@"sounds"];
         NSURL *guUrl = [[NSBundle mainBundle] URLForResource:@"gu" withExtension:@"mp3" subdirectory:@"sounds"];

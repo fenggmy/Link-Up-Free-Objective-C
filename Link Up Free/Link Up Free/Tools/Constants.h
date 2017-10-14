@@ -13,8 +13,8 @@
 #define PIECE_WIDTH 40
 #define PIECE_HEIGHT 40
 
-// 记录游戏的总时间（100秒）
-#define DEFAULT_TIME 300
+// 记录游戏的总时间（150秒）
+#define DEFAULT_TIME 150
 
 // Board中第一张图片出现的x坐标
 #define beginImageX 0

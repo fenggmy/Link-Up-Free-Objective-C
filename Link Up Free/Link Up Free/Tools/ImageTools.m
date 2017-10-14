@@ -17,8 +17,8 @@
  */
 NSArray* imageValues(){
     NSMutableArray* resourceValues = [[NSMutableArray alloc] init];
-    NSBundle* bundle = [NSBundle mainBundle];
-    NSArray* paths = [bundle pathsForResourcesOfType:@"png" inDirectory:@"images"];
+    //NSBundle* bundle = [NSBundle mainBundle];
+    NSArray* paths = [[NSBundle mainBundle] pathsForResourcesOfType:@"png" inDirectory:@"images"];
     NSLog(@"paths = %@",paths);
     for (NSString* path in paths){
         NSString* imageName = [path lastPathComponent];

@@ -17,6 +17,7 @@
     }
     return self;
 }
+
 // 获取该Piece的中心
 -(FKPoint *)getCenter{
     return [[FKPoint alloc]initWithX:self.image.image.size.width / 2 + _beginX Y:self.image.image.size.height / 2 + _beginY ];

@@ -13,6 +13,7 @@
 @interface Piece : NSObject
 
 @property(nonatomic,strong) PieceImage * image;
+
 @property(nonatomic,assign) NSInteger beginX;// 该方块左上角的x坐标
 @property(nonatomic,assign) NSInteger beginY;// 该方块左上角的y坐标
 

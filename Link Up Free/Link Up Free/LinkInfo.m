@@ -9,7 +9,6 @@
 #import "LinkInfo.h"
 
 @implementation LinkInfo
-
 // 提供第一个初始化方法, 表示两个Point可以直接相连, 没有转折点
 -(id)initWithP1:(FKPoint *)P1 P2:(FKPoint *)P2{
     self = [super init];

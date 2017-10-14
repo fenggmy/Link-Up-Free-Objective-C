@@ -11,6 +11,7 @@
 
 @interface LinkInfo : NSObject
 // 定义一个NSMutableArray用于保存连接点
+
 @property(nonatomic,strong) NSMutableArray * points;
 - (id)initWithP1 : (FKPoint *)P1 P2 : (FKPoint *)P2;
 - (id)initWithP1 : (FKPoint *)P1 P2 : (FKPoint *)P2 P3 : (FKPoint *)P3;

@@ -15,7 +15,6 @@
 
 // 记录游戏的总时间（150秒）
 #define DEFAULT_TIME 150
-
 // Board中第一张图片出现的x坐标
 #define beginImageX 0
 // Board中第一张图片出现的y坐标

@@ -18,6 +18,7 @@
 -(NSArray *)creatPiecesWithXSize:(NSInteger)XSize YSize:(NSInteger)YSize{
     return nil;
 }
+
 -(NSArray *)create{
     AppDelegate * appDelegate = [UIApplication sharedApplication].delegate;
     // 创建Piece的二维数组

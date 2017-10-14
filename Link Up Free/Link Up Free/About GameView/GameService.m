@@ -17,6 +17,7 @@
 @implementation GameService{
     AppDelegate * _appDelegate;
 }
+
 -(void)start{
     // 定义一个BaseBoard对象
     BaseBoard * baseBoard = nil;

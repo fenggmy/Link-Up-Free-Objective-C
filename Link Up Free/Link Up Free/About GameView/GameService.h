@@ -28,6 +28,7 @@
 
  @return 如果还剩Piece对象返回YES, 没有返回NO
  */
+
 -(BOOL)hasPiece;
 
 /**

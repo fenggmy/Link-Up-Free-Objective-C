@@ -81,6 +81,7 @@ NSArray * getPlayValues(NSInteger size){
  @param size 需要获取的图片的数量
  @return size个图片包装成的PieceImage对象的集合
  */
+
 NSArray * getPlayImages(NSInteger size){
     // 随机获取size个图片ID组成的集合
     NSArray * resourceValues = getPlayValues(size);

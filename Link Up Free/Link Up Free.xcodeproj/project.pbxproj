@@ -25,7 +25,7 @@
 		9986A9201F9106220060FC67 /* GameService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986A91F1F9106220060FC67 /* GameService.m */; };
 		999883B61F91FE4B00DC9BAC /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 999883B51F91FE4B00DC9BAC /* GameView.m */; };
 		99D546771F9240BF000B7B66 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 99D546721F923E41000B7B66 /* images */; };
-		99D546781F9240C5000B7B66 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 99D546761F923E9D000B7B66 /* sounds */; };
+		99D5467D1F925DCD000B7B66 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 99D5467C1F925DC2000B7B66 /* sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,7 +63,7 @@
 		999883B41F91FE4B00DC9BAC /* GameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
 		999883B51F91FE4B00DC9BAC /* GameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
 		99D546721F923E41000B7B66 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		99D546761F923E9D000B7B66 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
+		99D5467C1F925DC2000B7B66 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +106,12 @@
 				9986A8EC1F90E8E10060FC67 /* object */,
 				9986A90F1F90F7090060FC67 /* Tools */,
 				99D546721F923E41000B7B66 /* images */,
-				9986A8CE1F90D6590060FC67 /* Assets.xcassets */,
-				99D546761F923E9D000B7B66 /* sounds */,
+				99D5467C1F925DC2000B7B66 /* sounds */,
 				9986A8CB1F90D6590060FC67 /* Main.storyboard */,
 				9986A8D01F90D6590060FC67 /* LaunchScreen.storyboard */,
 				9986A8D31F90D6590060FC67 /* Info.plist */,
 				9986A8D41F90D6590060FC67 /* main.m */,
+				9986A8CE1F90D6590060FC67 /* Assets.xcassets */,
 			);
 			path = "Link Up Free";
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D546781F9240C5000B7B66 /* sounds in Resources */,
+				99D5467D1F925DCD000B7B66 /* sounds in Resources */,
 				99D546771F9240BF000B7B66 /* images in Resources */,
 				9986A8D21F90D6590060FC67 /* LaunchScreen.storyboard in Resources */,
 				9986A8CF1F90D6590060FC67 /* Assets.xcassets in Resources */,

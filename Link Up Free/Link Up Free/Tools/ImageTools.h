@@ -13,6 +13,7 @@
  获取连连看所有图片的ID（约定所有图片ID以p_开头）
  返回images目录下所有以p_开头的图片的文件名
  */
+
 NSArray* imageValues();
 
 

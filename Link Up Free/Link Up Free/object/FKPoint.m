@@ -27,6 +27,7 @@
     newPoint->_y = _y;
     return newPoint;
 }
+
 -(BOOL)isEqual:(FKPoint*)other{
     return _x == other.x && _y == other.y;
 }

@@ -6,6 +6,7 @@
 //  Copyright © 2017年 Yifeng. All rights reserved.
 //
 
+
 #import "VerticalBoard.h"
 #import "Piece.h"
 
